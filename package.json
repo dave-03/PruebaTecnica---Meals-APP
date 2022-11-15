@@ -2,6 +2,7 @@
   "name": "comidas-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://unique-ganache-e0a6c2.netlify.app",
   "dependencies": {
     "@coreui/coreui": "^4.2.2",
     "@coreui/react": "^4.4.0",
@@ -29,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "homepage": "."
   },
   "eslintConfig": {
     "extends": [
@@ -52,4 +54,5 @@
   "devDependencies": {
     "tailwindcss": "^3.2.4"
   }
+  
 }

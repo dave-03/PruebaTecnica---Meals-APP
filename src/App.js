@@ -1,5 +1,3 @@
-
-import { Route, Router, Routes } from 'react-router-dom';
 import './App.css';
 import "@fontsource/roboto"
 import NavBar from './Components/NavBar/NavBar';
