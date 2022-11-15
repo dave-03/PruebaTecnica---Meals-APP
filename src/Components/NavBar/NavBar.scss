@@ -1,0 +1,107 @@
+$black: #000000;
+$white: #ffffff;
+$indigo: #4F00F6;
+
+
+.navbar {
+    background-color: $black;
+
+    &-container{
+        max-width: 95rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    &-containerResponsive{
+        display: flex;
+        justify-content: justify-between;
+    }
+
+    &-containerFluid{
+        display: flex;
+       
+    }
+
+    &-brand-link {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    &-brand {
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-right: 5rem;
+        margin-top: 5px;
+        
+    }
+
+
+    &-firstItem {
+        margin: 0;
+        padding: 1.5rem 0.5rem;
+        color: $white;
+    }
+
+    &-secondItem {
+        color: $white;
+        padding: 1rem 0.5rem;
+        transition: all 0.3 ease-in ;
+
+
+        &:hover {
+            color: $indigo;
+            transition-duration: 1000ms;
+            
+        }
+
+    }
+
+
+    &-left{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+
+
+        
+    }
+
+    &-LogOut{
+        margin-right: 3rem; 
+        color: $white;
+        background-color: rgba(195, 195, 195, 0.699);
+        height: 2.5rem;
+        width: 4.5rem;
+        border-radius: 15px;
+        font-weight: bold;
+        transition: all 0.3 ease-in-out;
+
+        &:hover {
+            transform: scale(1.2);
+            background-color: $indigo;
+            color: $black;
+            transition-duration: 1000ms;
+        }
+
+    }
+   
+
+    &-secondBrand{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin: 0 auto;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+}
